@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Gitar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="sticky-header">
+    <nav>
+        <div class="logo">
+          <img src="Gambar gitar/Logo Gitar.png" alt="Logo Gitar">
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul id="navMenu">
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#gallery">Galeri Gitar</a></li>
+          <li><a href="#video">Video</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section class="hero" id="beranda">
+    <video class="hero-video" autoplay muted loop>
+      <source src="Video/Karna Kamu Geisha _ Gitar Cover.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h1>Selamat Datang di Galeri Gitar Favorit Rendy</h1>
+      <p>
+        <i>"Musik adalah bahasa yang tidak berbicara dengan kata-kata tertentu. Itu berbicara dalam emosi, dan jika ada di dalam tulang, itu ada di dalam tulang."</i>
+      </p>
+      <a href="#gallery" class="btn">Lihat Koleksi</a>
+    </div>
+  </section>
+  <section class="catalog" id="gallery">
+    <h2>Top 5 Gitar Favorit</h2>
+    <div class="gallery-container">
+      <div class="guitar-card">
+        <a href="Detail Gitar/Yamaha F310.html">
+          <img src="Gambar gitar/Yamaha F310.png" alt="Gitar Yamaha F310">
+          <h3>Yamaha F310</h3>
+        </a>
+      </div>
+      <div class="guitar-card">
+        <a href="Detail Gitar/Fender Telecaster.html">
+          <img src="Gambar gitar/Fender Telecaster.png" alt="Gitar Fender Telecaster">
+          <h3>Fender Telecaster</h3>
+        </a>
+      </div>
+      <div class="guitar-card">
+        <a href="Detail Gitar/Fender Stratocaster.html">
+          <img src="Gambar gitar/Fender Stratocaster.png" alt="Gitar Fender Stratocaster">
+          <h3>Fender Stratocaster</h3>
+        </a>
+      </div>
+      <div class="guitar-card">
+        <a href="Detail Gitar/Gibson Les Paul.html">
+          <img src="Gambar gitar/Gibson Les Paul.png" alt="Gitar Gibson Les Paul">
+          <h3>Gibson Les Paul</h3>
+        </a>
+      </div>
+      <div class="guitar-card">
+        <a href="Detail Gitar/Cort AD810.html">
+          <img src="Gambar gitar/Gitar Cort ad810.png" alt="Gitar Cort ad810">
+          <h3>Cort AD810</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="video-section" id="video">
+    <h2>Cover by Rendy - Karena Kamu (Geisha)</h2>
+    <video controls width="600">
+      <source src="Video/Karna Kamu Geisha _ Gitar Cover.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section class="contact" id="contact">
+    <h2>Hubungi Saya</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Nama" name="nama" required>
+      <input type="email" placeholder="Email" name="email" required>
+      <textarea placeholder="Pesan" name="pesan" required></textarea>
+      <button type="submit">Kirim</button>
+      <div id="formMessage"></div>
+    </form>
+  </section>
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2025 Galeri Gitar Favorit</p>
+        <ul class="social-links">
+          <li><a href="https://www.linkedin.com/in/rendynyp?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BOvuRH6DDS0SXIXQmeIHifw%3D%3D">LinkedIn </a></li>
+          <li><a href="https://github.com/Renn1104">Github</a></li>
+          <li><a href="https://www.instagram.com/rendy_nyp/">Instagram</a></li>
+        </ul>
+      </div>
+    </footer>
+</body>
+</html>
